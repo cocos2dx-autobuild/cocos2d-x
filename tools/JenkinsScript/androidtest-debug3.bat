@@ -106,16 +106,16 @@ goto success
 
 :error
 echo Error.
-git checkout -f|%GITBIN%\sh.exe --login
-git clean -df -x|%GITBIN%\sh.exe --login
+git checkout -f|"%GITBIN%"\sh.exe --login
+git clean -df -x|"%GITBIN%"\sh.exe --login
 pause
 exit 1
 goto end
 
 :success
 echo Success.
-git checkout -f|%GITBIN%\sh.exe --login
-git clean -df|%GITBIN%\sh.exe --login
+git checkout -f|"%GITBIN%"\sh.exe --login
+git clean -df|"%GITBIN%"\sh.exe --login
 pause
 exit 0
 goto end

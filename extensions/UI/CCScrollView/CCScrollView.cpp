@@ -455,7 +455,7 @@ const CCSize& CCScrollView::getContentSize()
     return s_tSize;
 }
 
-void CCScrollView::setContentSize(CCSize size)
+void CCScrollView::setContentSize(const CCSize& size)
 {
     this->setViewSize(size);
 }

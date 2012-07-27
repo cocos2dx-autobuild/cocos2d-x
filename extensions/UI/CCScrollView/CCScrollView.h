@@ -207,7 +207,7 @@ public:
     virtual void ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent);
     virtual void ccTouchCancelled(CCTouch *pTouch, CCEvent *pEvent);
 
-    virtual void setContentSize(CCSize size);
+    virtual void setContentSize(const CCSize& size);
     virtual CCSize getContentSize();
 
     /**
